@@ -1,0 +1,28 @@
+[
+	  // Wrap with Abbreviation
+    {
+        "keys": ["shift+ctrl+g"],
+        "command": "emmet_wrap_with_abbreviation",
+        "context": [{"key": "setting.is_widget",  "operand": false }]
+    },
+     // Update Image Size
+    {
+        "keys": ["ctrl+u"],
+        "command": "emmet_update_image_size"
+    },
+     // Convert data:URL
+    {
+        "keys": ["ctrl+'"],
+        "command": "emmet_convert_data_url"
+    },
+     // Expand abbreviation
+    {
+        "keys": ["ctrl+e"],
+        "command": "emmet_expand_abbreviation"
+    },
+     // Remove Tag
+    {
+        "keys": ["shift+ctrl+;"],
+        "command": "emmet_remove_tag"
+    },
+]
